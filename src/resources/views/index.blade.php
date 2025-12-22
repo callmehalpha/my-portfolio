@@ -55,7 +55,7 @@
             <div class="s-header__block">
                 <div class="s-header__logo">
                     <a class="logo" href="index.html">
-                        <img src="images/logo.svg" alt="Homepage">
+                        <img src="{{ asset('assets/images/logo.svg') }}" alt="Homepage">
                     </a>
                 </div>
 
@@ -286,9 +286,9 @@
         <div class="row folio-entries">
 
             <div class="column entry">
-                <a href="images/folio/gallery/g-turban.jpg" class="entry__link glightbox" data-glightbox="title: White Knit Cap; description: .entry__desc-01">
+                <a href="{{ asset('assets/images/folio/gallery/g-turban.jpg') }}" class="entry__link glightbox" data-glightbox="title: White Knit Cap; description: .entry__desc-01">
                     <div class="entry__thumb">
-                        <img src="images/folio/white_turban.jpg" srcset="images/folio/white_turban.jpg 1x, images/folio/white_turban@2x.jpg 2x" alt="">
+                        <img src="{{ asset('assets/images/folio/white_turban.jpg') }}" srcset="{{ asset('assets/images/folio/white_turban.jpg') }} 1x, {{ asset('assets/images/folio/white_turban@2x.jpg') }} 2x" alt="">
                     </div>
                     <div class="entry__info">
                         <h4 class="entry__title">White Knit Cap</h4>
@@ -307,9 +307,9 @@
             </div> <!-- entry -->
 
             <div class="column entry">
-                <a href="images/folio/gallery/g-woodcraft.jpg" class="entry__link glightbox" data-glightbox="title: WoodCraft; description: .entry__desc-02">
+                <a href="{{ asset('assets/images/folio/gallery/g-woodcraft.jpg') }}" class="entry__link glightbox" data-glightbox="title: WoodCraft; description: .entry__desc-02">
                     <div class="entry__thumb">
-                        <img src="images/folio/woodcraft.jpg" srcset="images/folio/woodcraft.jpg 1x, images/folio/woodcraft@2x.jpg 2x" alt="">
+                        <img src="{{ asset('assets/images/folio/woodcraft.jpg') }}" srcset="{{ asset('assets/images/folio/woodcraft.jpg') }} 1x, {{ asset('assets/images/folio/woodcraft@2x.jpg') }} 2x" alt="">
                     </div>
                     <div class="entry__info">
                         <h4 class="entry__title">WoodCraft</h4>
@@ -328,9 +328,9 @@
             </div> <!-- entry -->
 
             <div class="column entry">
-                <a href="images/folio/gallery/g-tulips.jpg" class="entry__link glightbox" data-glightbox="title: Caffeine & Tulips; description: .entry__desc-03">
+                <a href="{{ asset('assets/images/folio/gallery/g-tulips.jpg') }}" class="entry__link glightbox" data-glightbox="title: Caffeine & Tulips; description: .entry__desc-03">
                     <div class="entry__thumb">
-                        <img src="images/folio/caffeine_and_tulips.jpg" srcset="images/folio/caffeine_and_tulips.jpg 1x, images/folio/caffeine_and_tulips@2x.jpg 2x" alt="">
+                        <img src="{{ asset('assets/images/folio/caffeine_and_tulips.jpg') }}" srcset="{{ asset('assets/images/folio/caffeine_and_tulips.jpg') }} 1x, {{ asset('assets/images/folio/caffeine_and_tulips@2x.jpg') }} 2x" alt="">
                     </div>
                     <div class="entry__info">
                         <h4 class="entry__title">Caffeine & Tulips</h4>
@@ -349,9 +349,9 @@
             </div> <!-- entry -->
 
             <div class="column entry">
-                <a href="images/folio/gallery/g-grayscale.jpg" class="entry__link glightbox" data-glightbox="title: Grayscale; description: .entry__desc-04">
+                <a href="{{ asset('assets/images/folio/gallery/g-grayscale.jpg') }}" class="entry__link glightbox" data-glightbox="title: Grayscale; description: .entry__desc-04">
                     <div class="entry__thumb">
-                        <img src="images/folio/grayscale.jpg" srcset="images/folio/grayscale.jpg 1x, images/folio/grayscale@2x.jpg 2x" alt="">
+                        <img src="{{ asset('assets/images/folio/grayscale.jpg') }}" srcset="{{ asset('assets/images/folio/grayscale.jpg') }} 1x, {{ asset('assets/images/folio/grayscale@2x.jpg') }} 2x" alt="">
                     </div>
                     <div class="entry__info">
                         <h4 class="entry__title">Grayscale</h4>
@@ -370,9 +370,9 @@
             </div> <!-- entry -->
 
             <div class="column entry">
-                <a href="images/folio/gallery/g-lamp.jpg" class="entry__link glightbox" data-glightbox="title: The Lamp; description: .entry__desc-05">
+                <a href="{{ asset('assets/images/folio/gallery/g-lamp.jpg') }}" class="entry__link glightbox" data-glightbox="title: The Lamp; description: .entry__desc-05">
                     <div class="entry__thumb">
-                        <img src="images/folio/lamp.jpg" srcset="images/folio/lamp.jpg 1x, images/folio/lamp@2x.jpg 2x" alt="">
+                        <img src="{{ asset('assets/images/folio/lamp.jpg') }}" srcset="{{ asset('assets/images/folio/lamp.jpg') }} 1x, {{ asset('assets/images/folio/lamp@2x.jpg') }} 2x" alt="">
                     </div>
                     <div class="entry__info">
                         <h4 class="entry__title">The Lamp</h4>
@@ -391,9 +391,9 @@
             </div> <!-- entry -->
 
             <div class="column entry">
-                <a href="images/folio/gallery/g-tropical.jpg" class="entry__link glightbox" data-glightbox="title: Tropical; description: .entry__desc-06">
+                <a href="{{ asset('assets/images/folio/gallery/g-tropical.jpg') }}" class="entry__link glightbox" data-glightbox="title: Tropical; description: .entry__desc-06">
                     <div class="entry__thumb">
-                        <img src="images/folio/tropical.jpg" srcset="images/folio/tropical.jpg 1x, images/folio/tropical@2x.jpg 2x" alt="">
+                        <img src="{{ asset('assets/images/folio/tropical.jpg') }}" srcset="{{ asset('assets/images/folio/tropical.jpg') }} 1x, {{ asset('assets/images/folio/tropical@2x.jpg') }} 2x" alt="">
                     </div>
                     <div class="entry__info">
                         <h4 class="entry__title">Tropical</h4>
@@ -425,7 +425,7 @@
 
                         <div class="s-testimonials__slide swiper-slide">
                             <div class="s-testimonials__author">
-                                <img src="images/avatars/user-02.jpg" alt="Author image" class="s-testimonials__avatar">
+                                <img src="{{ asset('assets/images/avatars/user-02.jpg') }}" alt="Author image" class="s-testimonials__avatar">
                                 <cite class="s-testimonials__cite">
                                     <strong>John Rockefeller</strong>
                                     <span>Standard Oil Co.</span>
@@ -440,7 +440,7 @@
 
                         <div class="s-testimonials__slide swiper-slide">
                             <div class="s-testimonials__author">
-                                <img src="images/avatars/user-03.jpg" alt="Author image" class="s-testimonials__avatar">
+                                <img src="{{ asset('assets/images/avatars/user-03.jpg') }}" alt="Author image" class="s-testimonials__avatar">
                                 <cite class="s-testimonials__cite">
                                     <strong>Andrew Carnegie</strong>
                                     <span>Carnegie Steel Co.</span>
@@ -455,7 +455,7 @@
 
                         <div class="s-testimonials__slide swiper-slide">
                             <div class="s-testimonials__author">
-                                <img src="images/avatars/user-01.jpg" alt="Author image" class="s-testimonials__avatar">
+                                <img src="{{ asset('assets/images/avatars/user-01.jpg') }}" alt="Author image" class="s-testimonials__avatar">
                                 <cite class="s-testimonials__cite">
                                     <strong>John Morgan</strong>
                                     <span>JP Morgan & Co.</span>
@@ -470,7 +470,7 @@
 
                         <div class="s-testimonials__slide swiper-slide">
                             <div class="s-testimonials__author">
-                                <img src="images/avatars/user-06.jpg" alt="Author image" class="s-testimonials__avatar">
+                                <img src="{{ asset('assets/images/avatars/user-06.jpg') }}" alt="Author image" class="s-testimonials__avatar">
                                 <cite class="s-testimonials__cite">
                                     <strong>Henry Ford</strong>
                                     <span>Ford Motor Co.</span>
@@ -668,6 +668,7 @@
 
 <!-- Java Script
 ================================================== -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJ+Y3VSW4zYp8gkJoZ9erjvWb7sO7mG3Rk/tk=" crossorigin="anonymous"></script>
 <script src="{{asset("assets/js/plugins.js")}}"></script>
 <script src="{{asset("assets/js/main.js")}}"></script>
 
