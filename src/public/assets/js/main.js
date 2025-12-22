@@ -7,6 +7,16 @@
 
     'use strict';
 
+    /* graceful fallbacks
+    * -------------------------------------------------- */
+    const ssPluginFallbacks = function() {
+        if (window.jQuery && typeof window.jQuery.fn.tipper !== 'function') {
+            window.jQuery.fn.tipper = function() {
+                return this;
+            };
+        }
+    };
+
 
    /* preloader
     * -------------------------------------------------- */
@@ -136,6 +146,7 @@
                 const sectionHeight = current.offsetHeight;
                 const sectionTop = current.offsetTop - 50;
                 const sectionId = current.getAttribute('id');
+                const navLink = document.querySelector('.s-header__nav a[href*=' + sectionId + ']');
             
                /* If our current scroll position enters the space where current section 
                 * on screen is, add .current class to parent element(li) of the thecorresponding 
@@ -143,10 +154,12 @@
                 * sectionId variable we are getting while looping through sections as 
                 * an selector
                 */
-                if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-                    document.querySelector('.s-header__nav a[href*=' + sectionId + ']').parentNode.classList.add('current');
-                } else {
-                    document.querySelector('.s-header__nav a[href*=' + sectionId + ']').parentNode.classList.remove('current');
+                if (navLink && navLink.parentNode) {
+                    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                        navLink.parentNode.classList.add('current');
+                    } else {
+                        navLink.parentNode.classList.remove('current');
+                    }
                 }
             });
         }
@@ -154,9 +167,11 @@
     }; // end ssScrollSpy
 
 
-   /* glightbox
+    /* glightbox
     * ------------------------------------------------------ */ 
     const ssGLightbox = function() {
+
+        if (typeof GLightbox !== 'function') return;
 
         const lightbox = GLightbox({
             selector: '.glightbox',
@@ -174,11 +189,14 @@
     } // end ssGLightbox
 
 
-   /* swiper
+    /* swiper
     * ------------------------------------------------------ */ 
     const ssSwiper = function() {
 
-        const testimonialsSwiper = new Swiper('.s-testimonials__slider', {
+        const slider = document.querySelector('.s-testimonials__slider');
+        if (typeof Swiper !== 'function' || !slider) return;
+
+        const testimonialsSwiper = new Swiper(slider, {
 
             slidesPerView: 1,
             pagination: {
@@ -253,9 +271,11 @@
     }; // end ssBackToTop
 
 
-   /* smoothscroll
+    /* smoothscroll
     * ------------------------------------------------------ */
     const ssMoveTo = function() {
+
+        if (typeof MoveTo !== 'function') return;
 
         const easeFunctions = {
             easeInQuad: function (t, b, c, d) {
@@ -300,6 +320,7 @@
     * ------------------------------------------------------ */
     (function ssInit() {
 
+        ssPluginFallbacks();
         ssPreloader();
         ssMoveHeader();
         ssMobileMenu();
