@@ -2,11 +2,163 @@
 <html lang="en" class="no-js" >
 <head>
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Callmehalpha</title>
+    <!-- =========================
+  BASIC META
+========================= -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>callmehalpha (Yisau Abdulazeez) — Software Engineer & Systems Architect</title>
+
+    <meta
+        name="description"
+        content="callmehalpha is the technical portfolio of Yisau Abdulazeez, a senior software engineer and systems architect focused on backend systems, cloud architecture, and reliability-driven engineering."
+    />
+
+    <meta
+        name="keywords"
+        content="callmehalpha, Yisau Abdulazeez, software engineer, systems architect, backend engineer, cloud architecture, site reliability engineering, Laravel, Go, Next.js, Docker, PostgreSQL, multi-tenant SaaS, API design"
+    />
+
+    <meta name="author" content="Yisau Abdulazeez (callmehalpha)" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0C0C0C" />
+
+    <!-- Canonical: ALWAYS point to the portfolio as the primary page -->
+    <link rel="canonical" href="https://abdulazeez.usaiy.xyz/" />
+
+    <!-- =========================
+      OPEN GRAPH (LinkedIn, WhatsApp)
+    ========================= -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="callmehalpha — Software Engineer & Systems Architect" />
+    <meta
+        property="og:description"
+        content="Technical portfolio of callmehalpha (Yisau Abdulazeez). Backend engineering, scalable systems, cloud architecture, and production reliability."
+    />
+    <meta property="og:url" content="https://abdulazeez.usaiy.xyz/" />
+    <meta property="og:image" content="{{asset("assets/images/og.jpeg")}}" />
+
+    <!-- =========================
+      X / TWITTER CARDS
+    ========================= -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="callmehalpha — Software Engineer & Systems Architect" />
+    <meta
+        name="twitter:description"
+        content="Senior software engineer specialising in backend systems, cloud architecture, and reliability-driven engineering. Technical portfolio and proof of work."
+    />
+    <meta name="twitter:image" content="{{asset("assets/images/og.jpeg")}}" />
+
+    <!-- =========================
+      CANONICAL STRATEGY FOR MEDIUM (IMPORTANT)
+      1) Your portfolio is the canonical "profile/proof" page.
+      2) Your writing lives on Medium under USAIY.
+      3) Every Medium article should link back to this portfolio as: "About the author" / "Portfolio".
+      4) Optionally create a /writing section on this one-pager with links to Medium posts.
+    ========================= -->
+
+    <!-- =========================
+      STRUCTURED DATA (JSON-LD)
+    ========================= -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://abdulazeez.usaiy.xyz/#website",
+      "url": "https://abdulazeez.usaiy.xyz/",
+      "name": "callmehalpha — Technical Portfolio",
+      "description": "Technical portfolio of callmehalpha (Yisau Abdulazeez), a senior software engineer and systems architect focused on backend systems, cloud architecture, and reliability-driven engineering.",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://abdulazeez.usaiy.xyz/#person" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://abdulazeez.usaiy.xyz/#webpage",
+      "url": "https://abdulazeez.usaiy.xyz/",
+      "name": "callmehalpha (Yisau Abdulazeez) — Software Engineer & Systems Architect",
+      "isPartOf": { "@id": "https://abdulazeez.usaiy.xyz/#website" },
+      "about": { "@id": "https://abdulazeez.usaiy.xyz/#person" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://abdulazeez.usaiy.xyz/#profilepage",
+      "url": "https://abdulazeez.usaiy.xyz/",
+      "name": "Yisau Abdulazeez — Software Engineer & Systems Architect",
+      "mainEntity": { "@id": "https://abdulazeez.usaiy.xyz/#person" },
+      "isPartOf": { "@id": "https://abdulazeez.usaiy.xyz/#website" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://abdulazeez.usaiy.xyz/#person",
+      "name": "Yisau Abdulazeez",
+      "alternateName": "callmehalpha",
+      "description": "Senior software engineer and systems architect specialising in backend engineering, cloud architecture, and reliability-driven systems.",
+      "jobTitle": ["Software Engineer", "Backend Engineer", "Systems Architect"],
+      "url": "https://abdulazeez.usaiy.xyz/",
+      "sameAs": [
+        "https://www.linkedin.com/in/abdulazeez-yisau-tech-ceo/",
+        "https://x.com/call_me_halpha",
+        "https://github.com/callmehalpha",
+        "https://medium.com/@usaiy"
+      ],
+      "knowsAbout": [
+        "Backend Engineering",
+        "System Design",
+        "Distributed Systems",
+        "Cloud Architecture",
+        "Site Reliability Engineering",
+        "API Design",
+        "Multi-tenant SaaS",
+        "Docker",
+        "PostgreSQL"
+      ],
+      "knowsLanguage": [{ "@type": "Language", "name": "English" }]
+    },
+
+    /* 1) BreadcrumbList schema (SEO clarity) */
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://abdulazeez.usaiy.xyz/#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "USAIY",
+          "item": "https://usaiy.xyz/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Abdulazeez",
+          "item": "https://abdulazeez.usaiy.xyz/"
+        }
+      ]
+    },
+
+    /* 2) Article schema template (your writing is on Medium under USAIY) */
+    {
+      "@type": "Article",
+      "@id": "https://abdulazeez.usaiy.xyz/#writing-template",
+      "headline": "Technical Writing by callmehalpha",
+      "author": { "@id": "https://abdulazeez.usaiy.xyz/#person" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "USAIY",
+        "url": "https://usaiy.xyz"
+      },
+      "about": ["Software Engineering", "System Design", "Cloud Architecture", "Site Reliability Engineering"],
+      "inLanguage": "en",
+      "mainEntityOfPage": "https://medium.com/@usaiy"
+    }
+  ]
+}
+</script>
+
 
     <script>
         document.documentElement.classList.remove('no-js');
@@ -668,7 +820,7 @@
 
 <!-- Java Script
 ================================================== -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJ+Y3VSW4zYp8gkJoZ9erjvWb7sO7mG3Rk/tk=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="{{asset("assets/js/plugins.js")}}"></script>
 <script src="{{asset("assets/js/main.js")}}"></script>
 
