@@ -160,8 +160,8 @@
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="{{asset("assets/css/vendor.css")}}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3x3GOnj2W0uEoL1/4FV4U7w6zLyuC2bN2GJ3OQKfLzBuo3f2Q0a2H4G3UIvJqS8d+Pm7bkT/1iT8u8gqXQvA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-UTNP5ae2aL85qyb3wKfEJmEj9kLFVjNJArjfy3KHjF5vj1io8nE1lKO9eXWc6KqZpbzo5smXK1YtQv5Q2C0T4g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="{{asset("assets/css/styles.css")}}">
 
     <!-- favicons
@@ -825,7 +825,7 @@
 <!-- Java Script
 ================================================== -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6iR4H6v+K0O45g45bB+HFqRSbV5MzdMR3NofM8JrIoVNewc19hXtOD87mpy4VdQG6aJ0aH7QpT+AaJ6g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"/>
 <script src="{{asset("assets/js/plugins.js")}}"></script>
 <script src="{{asset("assets/js/main.js")}}"></script>
 
