@@ -51,14 +51,6 @@
     <meta name="twitter:image" content="{{asset("assets/images/og.jpeg")}}" />
 
     <!-- =========================
-      CANONICAL STRATEGY FOR MEDIUM (IMPORTANT)
-      1) Your portfolio is the canonical "profile/proof" page.
-      2) Your writing lives on Medium under USAIY.
-      3) Every Medium article should link back to this portfolio as: "About the author" / "Portfolio".
-      4) Optionally create a /writing section on this one-pager with links to Medium posts.
-    ========================= -->
-
-    <!-- =========================
       STRUCTURED DATA (JSON-LD)
     ========================= -->
     <script type="application/ld+json">
@@ -206,8 +198,8 @@
 
             <div class="s-header__block">
                 <div class="s-header__logo">
-                    <a class="logo" href="index.html">
-                        <img src="{{ asset('assets/images/logo.svg') }}" alt="Homepage">
+                    <a class="logo" href="/">
+                       {{-- <img src="{{ asset('') }}" alt="{{config('app.name')}}">--}}
                     </a>
                 </div>
 
@@ -238,8 +230,8 @@
 
                     <div class="s-intro__content-pretitle text-pretitle">Hello</div>
                     <h1 class="s-intro__content-title">
-                        I'm Jonathan Doe <br>
-                        a product designer <br>
+                        I'm Yisau Abdulazeez <br>
+                        a software engineer <br>
                         base in Somewhere.
                     </h1>
 
@@ -255,39 +247,46 @@
 
         <ul class="s-intro__social social-list">
             <li>
-                <a href="#0">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
-                    <span class="u-screen-reader-text">Facebook</span>
-                </a>
-            </li>
-            <li>
-                <a href="#0">
+                <a href="https://x.com/call_me_halpha" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
-                    <span class="u-screen-reader-text">Twitter</span>
+                    <span class="u-screen-reader-text">X</span>
                 </a>
             </li>
             <li>
-                <a href="#0">
+                <a href="https://www.instagram.com/abdulazeez_yisau_tech_ceo" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
                     <span class="u-screen-reader-text">Instagram</span>
                 </a>
             </li>
             <li>
-                <a href="#0">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20.66 6.98a9.932 9.932 0 0 0-3.641-3.64C15.486 2.447 13.813 2 12 2s-3.486.447-5.02 1.34c-1.533.893-2.747 2.107-3.64 3.64S2 10.187 2 12s.446 3.487 1.34 5.02a9.924 9.924 0 0 0 3.641 3.64C8.514 21.553 10.187 22 12 22s3.486-.447 5.02-1.34a9.932 9.932 0 0 0 3.641-3.64C21.554 15.487 22 13.813 22 12s-.446-3.487-1.34-5.02zM12 3.66c2 0 3.772.64 5.32 1.919-.92 1.174-2.286 2.14-4.1 2.9-1.002-1.813-2.088-3.327-3.261-4.54A7.715 7.715 0 0 1 12 3.66zM5.51 6.8a8.116 8.116 0 0 1 2.711-2.22c1.212 1.201 2.325 2.7 3.34 4.5-2 .6-4.114.9-6.341.9-.573 0-1.006-.013-1.3-.04A8.549 8.549 0 0 1 5.51 6.8zM3.66 12c0-.054.003-.12.01-.2.007-.08.01-.146.01-.2.254.014.641.02 1.161.02 2.666 0 5.146-.367 7.439-1.1.187.373.381.793.58 1.26-1.32.293-2.674 1.006-4.061 2.14S6.4 16.247 5.76 17.5c-1.4-1.587-2.1-3.42-2.1-5.5zM12 20.34c-1.894 0-3.594-.587-5.101-1.759.601-1.187 1.524-2.322 2.771-3.401 1.246-1.08 2.483-1.753 3.71-2.02a29.441 29.441 0 0 1 1.56 6.62 8.166 8.166 0 0 1-2.94.56zm7.08-3.96a8.351 8.351 0 0 1-2.58 2.621c-.24-2.08-.7-4.107-1.379-6.081.932-.066 1.765-.1 2.5-.1.799 0 1.686.034 2.659.1a8.098 8.098 0 0 1-1.2 3.46zm-1.24-5c-1.16 0-2.233.047-3.22.14a27.053 27.053 0 0 0-.68-1.62c2.066-.906 3.532-2.006 4.399-3.3 1.2 1.414 1.854 3.027 1.96 4.84-.812-.04-1.632-.06-2.459-.06z"></path></svg>
-                    <span class="u-screen-reader-text">Dribbble</span>
+                <a href="https://github.com/callmehalpha" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         width="24"
+                         height="24"
+                         viewBox="0 0 24 24"
+                         style="fill: rgba(0, 0, 0, 1);">
+                        <path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.11 3.29 9.44 7.86 10.97.57.1.78-.25.78-.55 0-.27-.01-.98-.02-1.92-3.2.7-3.88-1.55-3.88-1.55-.53-1.35-1.3-1.71-1.3-1.71-1.06-.73.08-.72.08-.72 1.17.08 1.78 1.2 1.78 1.2 1.04 1.79 2.73 1.27 3.4.97.11-.76.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.71 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.81 1.18 1.84 1.18 3.1 0 4.44-2.69 5.41-5.25 5.7.42.36.8 1.08.8 2.18 0 1.57-.01 2.84-.01 3.22 0 .3.21.65.79.54A11.52 11.52 0 0 0 23.5 12C23.5 5.74 18.27.5 12 .5z"/>
+                    </svg>
+                    <span class="u-screen-reader-text">GitHub</span>
                 </a>
             </li>
+
             <li>
-                <a href="#0">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.99 2C6.472 2 2 6.473 2 11.99c0 4.232 2.633 7.85 6.35 9.306-.088-.79-.166-2.006.034-2.868.182-.78 1.172-4.966 1.172-4.966s-.299-.599-.299-1.484c0-1.388.805-2.425 1.808-2.425.853 0 1.264.64 1.264 1.407 0 .858-.546 2.139-.827 3.327-.235.994.499 1.805 1.479 1.805 1.775 0 3.141-1.872 3.141-4.575 0-2.392-1.719-4.064-4.173-4.064-2.843 0-4.512 2.132-4.512 4.335 0 .858.331 1.779.744 2.28a.3.3 0 0 1 .069.286c-.076.315-.245.994-.277 1.133-.044.183-.145.222-.335.134-1.247-.581-2.027-2.405-2.027-3.871 0-3.151 2.289-6.045 6.601-6.045 3.466 0 6.159 2.469 6.159 5.77 0 3.444-2.171 6.213-5.184 6.213-1.013 0-1.964-.525-2.29-1.146l-.623 2.374c-.225.868-.834 1.956-1.241 2.62a10 10 0 0 0 2.958.445c5.517 0 9.99-4.473 9.99-9.99S17.507 2 11.99 2"></path></svg>
-                    <span class="u-screen-reader-text">Pinterest</span>
+                <a href="https://www.linkedin.com/in/abdulazeez-yisau-tech-ceo/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         width="24"
+                         height="24"
+                         viewBox="0 0 24 24"
+                         style="fill: rgba(0, 0, 0, 1);">
+                        <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4.03 0 4.78 2.65 4.78 6.1V24h-4v-8.8c0-2.1-.04-4.8-2.92-4.8-2.93 0-3.38 2.29-3.38 4.65V24h-4V8z"/>
+                    </svg>
+                    <span class="u-screen-reader-text">Linkedln</span>
                 </a>
             </li>
         </ul> <!-- end s-intro__social -->
 
         <div class="s-intro__content-media">
-            <img src="{{asset("assets/images/intro-bg.jpg")}}" srcset="{{asset("assets/images/intro-bg.jpg")}} 1x,{{asset("assets/images/intro-bg.jpg")}}  2x" alt="">
+            <img src="{{asset("assets/images/me.png")}}" srcset="{{asset("assets/images/me.png")}} 1x,{{asset("assets/images/me.png")}}  2x" alt="">
         </div> <!-- s-intro__content-media -->
 
         <div class="s-intro__btn-download">
@@ -318,12 +317,13 @@
                 </div> <!-- end section-header -->
 
                 <p class="attention-getter">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas explicabo id debitis cupiditate cumque, error quia! Debitis cupiditate ipsa nihil labore, earum atque dolor quos saepe vero inventore, odit nam deleniti accusantium omnis mollitia consequatur harum incidunt! Ex modi aut repudiandae doloremque commodi recusandae labore sit. Perspiciatis omnis dolor dolores fuga iusto, recusandae animi nisi consequuntur exercitationem id maxime earum pariatur voluptas! Porro non quos quae tempora fuga quis sequi minus sed sint debitis reiciendis, nostrum natus suscipit iusto odio.
+                    I am a software engineer and systems architect focused on designing and building scalable, reliable backend systems. My work spans product development, cloud infrastructure, and system architecture, with a strong emphasis on long-term maintainability and clarity. I have worked across multiple projects and environments, contributing to systems that handle real users, real data, and real operational constraints. I care deeply about how systems behave under load, how they fail, and how they recover, and I approach engineering decisions with an understanding of both technical and business impact. Rather than chasing complexity, I prioritise simplicity, well-defined boundaries, and architectures that support growth without unnecessary friction. I value deliberate work, thoughtful trade-offs, and building software that can be trusted in production.
                 </p>
 
                 <p class="attention-getter">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. Ut enim ad minim
+                    Over time, I have balanced hands-on development with architectural responsibility, focusing on reliability-driven engineering and clear system design. I enjoy solving hard problems, improving system resilience, and aligning technical decisions with meaningful outcomes.
                 </p>
+
 
                 <div class="grid-list-items s-about__blocks">
 
@@ -331,59 +331,48 @@
                         <h4 class="s-about__block-title">Experience</h4>
                         <ul class="s-about__list">
                             <li>
-                                Spotify
-                                <span>Product Designer</span>
+                                De-Virtuosphere
+                                <span>Chief Technology Officer</span>
                             </li>
                             <li>
-                                Dropbox
-                                <span>Interface Developer</span>
+                                Brandseller
+                                <span>Information Technology Infrastructure Specialist</span>
                             </li>
                             <li>
-                                Google
-                                <span>Lead UI Designer</span>
+                                Circlify
+                                <span>Chief Technical Architect</span>
                             </li>
                             <li>
-                                Figma
-                                <span>UI Designer</span>
+                                Init Zero
+                                <span>Senior Lead Developer</span>
                             </li>
                             <li>
-                                Microsoft
-                                <span>UI Designer</span>
+                                Vascon Solutions
+                                <span>Web Developer</span>
                             </li>
                         </ul>
                     </div> <!--end s-about__block -->
 
                     <div class="grid-list-items__item s-about__block">
-                        <h4 class="s-about__block-title">Awards</h4>
+                        <h4 class="s-about__block-title">Certifications</h4>
 
                         <ul class="s-about__list">
                             <li>
                                 <a href="#0">
-                                    Site Of The Month
-                                    <span>Awwwards — 2023</span>
+                                    Agile Scrum Master Training
+                                    <span>Awards — 2024</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#0">
-                                    Site Of The Day
-                                    <span>Awwwards — 2023</span>
+                                    Site Reliability Engineering: Measuring and Managing Reliability
+                                    <span>Awards — 2025</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#0">
-                                    Agency of The Year
-                                    <span>Awwwards — 2022</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#0">
-                                    FWA of The Month
-                                    <span>FWA — 2022</span>
-                                </a>
-                            </li><li>
-                                <a href="#0">
-                                    Site Of The Month
-                                    <span>Awwwards — 2022</span>
+                                    Google Cloud Fundamentals: Core Infrastructure
+                                    <span>Awards — 2025</span>
                                 </a>
                             </li>
                         </ul>
@@ -394,22 +383,22 @@
 
                         <ul class="s-about__list">
                             <li>
-                                Product Design
+                                Backend Engineering
                             </li>
                             <li>
-                                UI/UX Design
+                                Systems Architecture
                             </li>
                             <li>
-                                Prototyping
+                                API Design & Integration
                             </li>
                             <li>
-                                Frontend Development
+                                Multi-tenant SaaS Architecture
                             </li>
                             <li>
-                                Illustration
+                                Database Design & Optimization
                             </li>
                             <li>
-                                Visual Design
+                                Performance & Scalability Engineering
                             </li>
                         </ul>
                     </div> <!--end s-about__block -->
@@ -438,127 +427,119 @@
         <div class="row folio-entries">
 
             <div class="column entry">
-                <a href="{{ asset('assets/images/folio/gallery/g-turban.jpg') }}" class="entry__link glightbox" data-glightbox="title: White Knit Cap; description: .entry__desc-01">
+                <a href="{{ asset('assets/images/projects/brandseller.PNG') }}" class="entry__link glightbox" data-glightbox="title: Brandseller; description: .entry__desc-01">
                     <div class="entry__thumb">
-                        <img src="{{ asset('assets/images/folio/white_turban.jpg') }}" srcset="{{ asset('assets/images/folio/white_turban.jpg') }} 1x, {{ asset('assets/images/folio/white_turban@2x.jpg') }} 2x" alt="">
+                        <img src="{{ asset('assets/images/projects/brandseller.PNG') }}" srcset="{{ asset('assets/images/projects/brandseller.PNG') }} 1x, {{ asset('assets/images/projects/brandseller.PNG') }} 2x" alt="">
                     </div>
                     <div class="entry__info">
-                        <h4 class="entry__title">White Knit Cap</h4>
-                        <div class="entry__cat">Frontend Design</div>
+                        <h4 class="entry__title">Brandseller</h4>
+                        <div class="entry__cat">WordPress Development</div>
                     </div>
                 </a>
 
                 <div class="glightbox-desc entry__desc-01">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Inventore ipsum iste soluta fugiat, impedit illum ducimus
-                        deleniti facilis ab, tempora non! Nisi, tempora provident.
-                        <a href="https://www.behance.net/">Project Link</a>.
+                        Creative and Fast-moving, we are committed to transforming business individuals and corporate entities to globally accepted brands via deliberate online marketing strategies.
+                        <a href="https://www.brandseller.co.uk" target="_blank">Visit</a>.
                     </p>
                 </div>
             </div> <!-- entry -->
-
             <div class="column entry">
-                <a href="{{ asset('assets/images/folio/gallery/g-woodcraft.jpg') }}" class="entry__link glightbox" data-glightbox="title: WoodCraft; description: .entry__desc-02">
+                <a href="{{ asset('assets/images/projects/mira.PNG') }}" class="entry__link glightbox" data-glightbox="title: Miraafrica; description: .entry__desc-03">
                     <div class="entry__thumb">
-                        <img src="{{ asset('assets/images/folio/woodcraft.jpg') }}" srcset="{{ asset('assets/images/folio/woodcraft.jpg') }} 1x, {{ asset('assets/images/folio/woodcraft@2x.jpg') }} 2x" alt="">
+                        <img src="{{ asset('assets/images/projects/mira.PNG') }}" srcset="{{ asset('assets/images/projects/mira.PNG') }} 1x, {{ asset('assets/images/projects/mira.PNG') }} 2x" alt="">
                     </div>
                     <div class="entry__info">
-                        <h4 class="entry__title">WoodCraft</h4>
-                        <div class="entry__cat">Product Design</div>
-                    </div>
-                </a>
-
-                <div class="glightbox-desc entry__desc-02">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Inventore ipsum iste soluta fugiat, impedit illum ducimus
-                        deleniti facilis ab, tempora non! Nisi, tempora provident.
-                        <a href="https://www.behance.net/">Project Link</a>.
-                    </p>
-                </div>
-            </div> <!-- entry -->
-
-            <div class="column entry">
-                <a href="{{ asset('assets/images/folio/gallery/g-tulips.jpg') }}" class="entry__link glightbox" data-glightbox="title: Caffeine & Tulips; description: .entry__desc-03">
-                    <div class="entry__thumb">
-                        <img src="{{ asset('assets/images/folio/caffeine_and_tulips.jpg') }}" srcset="{{ asset('assets/images/folio/caffeine_and_tulips.jpg') }} 1x, {{ asset('assets/images/folio/caffeine_and_tulips@2x.jpg') }} 2x" alt="">
-                    </div>
-                    <div class="entry__info">
-                        <h4 class="entry__title">Caffeine & Tulips</h4>
-                        <div class="entry__cat">Brand Identity</div>
+                        <h4 class="entry__title">Miraafrica</h4>
+                        <div class="entry__cat">Nextjs & Laravel API</div>
                     </div>
                 </a>
 
                 <div class="glightbox-desc entry__desc-03">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Inventore ipsum iste soluta fugiat, impedit illum ducimus
-                        deleniti facilis ab, tempora non! Nisi, tempora provident.
-                        <a href="https://www.behance.net/">Project Link</a>.
+                        MÍRÀ AFRICA is the new online home for African designers, artisans, boutiques, and retailers. Create your fashion storefront in minutes.
+                        <a href="https://www.miraafrica.xyz/" target="_blank">Visit</a>.
                     </p>
                 </div>
             </div> <!-- entry -->
 
             <div class="column entry">
-                <a href="{{ asset('assets/images/folio/gallery/g-grayscale.jpg') }}" class="entry__link glightbox" data-glightbox="title: Grayscale; description: .entry__desc-04">
+                <a href="{{ asset('assets/images/projects/circlify.PNG') }}" class="entry__link glightbox" data-glightbox="title: Circlify; description: .entry__desc-03">
                     <div class="entry__thumb">
-                        <img src="{{ asset('assets/images/folio/grayscale.jpg') }}" srcset="{{ asset('assets/images/folio/grayscale.jpg') }} 1x, {{ asset('assets/images/folio/grayscale@2x.jpg') }} 2x" alt="">
+                        <img src="{{ asset('assets/images/projects/circlify.PNG') }}" srcset="{{ asset('assets/images/projects/circlify.PNG') }} 1x, {{ asset('assets/images/projects/circlify.PNG') }} 2x" alt="">
                     </div>
                     <div class="entry__info">
-                        <h4 class="entry__title">Grayscale</h4>
-                        <div class="entry__cat">Product Design</div>
+                        <h4 class="entry__title">Circlify</h4>
+                        <div class="entry__cat">Nextjs & Laravel API</div>
+                    </div>
+                </a>
+
+                <div class="glightbox-desc entry__desc-03">
+                    <p>
+                        Join trusted thrift circles and save together — simple, transparent, and rewarding.
+
+                        <a href="https://www.circlify.io/" target="_blank">Visit</a>.
+                    </p>
+                </div>
+            </div> <!-- entry -->
+
+            <div class="column entry">
+                <a href="{{ asset('assets/images/projects/i0.PNG') }}" class="entry__link glightbox" data-glightbox="title: Init Zero; description: .entry__desc-02">
+                    <div class="entry__thumb">
+                        <img src="{{ asset('assets/images/projects/i0.PNG') }}" srcset="{{ asset('assets/images/projects/i0.PNG') }} 1x, {{ asset('assets/images/projects/i0.PNG') }} 2x" alt="">
+                    </div>
+                    <div class="entry__info">
+                        <h4 class="entry__title">Init Zero</h4>
+                        <div class="entry__cat">Laravel Development</div>
+                    </div>
+                </a>
+
+                <div class="glightbox-desc entry__desc-02">
+                    <p>
+                        Init Zero provides full-cycle software development services that adapt smoothly to your project requirements and business demands, from IT strategy advice and complete technological roadmaps through the end-to-end implementation of scalable solutions.
+                        <a href="https://www.izero.dev" target="_blank">Visit</a>.
+                    </p>
+                </div>
+            </div> <!-- entry -->
+
+            <div class="column entry">
+                <a href="{{ asset('assets/images/projects/usaiy.JPG') }}" class="entry__link glightbox" data-glightbox="title: Usaiy Limited; description: .entry__desc-04">
+                    <div class="entry__thumb">
+                        <img src="{{ asset('assets/images/projects/usaiy.JPG') }}" srcset="{{ asset('assets/images/projects/usaiy.JPG') }} 1x, {{ asset('assets/images/projects/usaiy.JPG') }} 2x" alt="">
+                    </div>
+                    <div class="entry__info">
+                        <h4 class="entry__title">Usaiy Limited</h4>
+                        <div class="entry__cat">Nextjs & Laravel API</div>
                     </div>
                 </a>
 
                 <div class="glightbox-desc entry__desc-04">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Inventore ipsum iste soluta fugiat, impedit illum ducimus
-                        deleniti facilis ab, tempora non! Nisi, tempora provident.
-                        <a href="https://www.behance.net/">Project Link</a>.
+                        A modern, family-controlled holding company compounding quietly across services, technology, and private capital.
+
+                        We don't chase momentum. We engineer it. Our approach is simple: build foundation-first ventures, operate with discipline, and compound over decades. No press releases, no vanity metrics, no fundraising theater.
+                        <a href="https://www.usaiy.xyz/" target="_blank">Visit</a>.
                     </p>
                 </div>
             </div> <!-- entry -->
 
             <div class="column entry">
-                <a href="{{ asset('assets/images/folio/gallery/g-lamp.jpg') }}" class="entry__link glightbox" data-glightbox="title: The Lamp; description: .entry__desc-05">
+                <a href="{{ asset('assets/images/projects/virtuo-logo.JPG') }}" class="entry__link glightbox" data-glightbox="title: De-virtuosphere; description: .entry__desc-05">
                     <div class="entry__thumb">
-                        <img src="{{ asset('assets/images/folio/lamp.jpg') }}" srcset="{{ asset('assets/images/folio/lamp.jpg') }} 1x, {{ asset('assets/images/folio/lamp@2x.jpg') }} 2x" alt="">
+                        <img src="{{ asset('assets/images/projects/virtuo-logo.JPG') }}" srcset="{{ asset('assets/images/projects/virtuo-logo.JPG') }} 1x, {{ asset('assets/images/projects/virtuo-logo.JPG') }} 2x" alt="">
                     </div>
                     <div class="entry__info">
-                        <h4 class="entry__title">The Lamp</h4>
-                        <div class="entry__cat">Brand Identity</div>
+                        <h4 class="entry__title">De-Virtuosphere</h4>
+                        <div class="entry__cat">Nextjs & Nestjs</div>
                     </div>
                 </a>
 
                 <div class="glightbox-desc entry__desc-05">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Inventore ipsum iste soluta fugiat, impedit illum ducimus
-                        deleniti facilis ab, tempora non! Nisi, tempora provident.
-                        <a href="https://www.behance.net/">Project Link</a>.
-                    </p>
-                </div>
-            </div> <!-- entry -->
-
-            <div class="column entry">
-                <a href="{{ asset('assets/images/folio/gallery/g-tropical.jpg') }}" class="entry__link glightbox" data-glightbox="title: Tropical; description: .entry__desc-06">
-                    <div class="entry__thumb">
-                        <img src="{{ asset('assets/images/folio/tropical.jpg') }}" srcset="{{ asset('assets/images/folio/tropical.jpg') }} 1x, {{ asset('assets/images/folio/tropical@2x.jpg') }} 2x" alt="">
-                    </div>
-                    <div class="entry__info">
-                        <h4 class="entry__title">Tropical</h4>
-                        <div class="entry__cat">Frontend Design</div>
-                    </div>
-                </a>
-
-                <div class="glightbox-desc entry__desc-06">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Inventore ipsum iste soluta fugiat, impedit illum ducimus
-                        deleniti facilis ab, tempora non! Nisi, tempora provident.
-                        <a href="https://www.behance.net/">Project Link</a>.
+                        Your partner in revolutionizing
+                        Education and Finance
+                        Secure identification, reliable attendance tracking, and seamless payment processing for educational institutions and businesses.
+                        <a href="https://v1.virtuobusiness.com/en" target="_blank">Visit</a>.
                     </p>
                 </div>
             </div> <!-- entry -->
@@ -799,7 +780,7 @@
 
             <div class="column xl-6 lg-12">
                 <p class="ss-copyright">
-                    <span>© Copyright Hudson 2023</span>
+                    <span>© Copyright {{config('app.name')}} {{date('Y')}}</span>
                     <span>Design by <a href="https://styleshout.com/">StyleShout</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></span>
                 </p>
             </div>
