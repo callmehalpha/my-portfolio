@@ -3954,6 +3954,31 @@ td:last-child {
 }
 
 /* ------------------------------------------------------------------- 
+ * ## works slider
+ * ------------------------------------------------------------------- */
+.s-works__slider {
+    width: 100%;
+}
+
+.s-works__slider .entry {
+    width: 100%;
+}
+
+.s-works__slider .owl-stage {
+    display: flex;
+}
+
+.s-works__slider .owl-item {
+    display: flex;
+}
+
+.s-works__slider .entry__thumb img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ------------------------------------------------------------------- 
  * ## folio entries 
  * ------------------------------------------------------------------- */
 .folio-entries .entry {
@@ -4077,6 +4102,7 @@ td:last-child {
     width        : var(--vspace-1_75);
     height       : var(--vspace-1_75);
     border-radius: 100%;
+    object-fit   : cover;
     outline      : none;
     position     : absolute;
     top          : 0;

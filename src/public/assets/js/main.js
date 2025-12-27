@@ -224,6 +224,33 @@
 
     }; // end ssSwiper
 
+    /* works slider
+    * ------------------------------------------------------ */
+    const ssWorksSlider = function() {
+
+        const slider = document.querySelector('.s-works__slider');
+        if (!slider || !window.jQuery || typeof window.jQuery.fn.owlCarousel !== 'function') return;
+
+        window.jQuery(slider).owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 24,
+            nav: true,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 1
+                },
+                1024: {
+                    items: 1
+                }
+            }
+        });
+    }; // end ssWorksSlider
+
 
    /* alert boxes
     * ------------------------------------------------------ */
@@ -327,6 +354,7 @@
         ssScrollSpy();
         ssGLightbox();
         ssSwiper();
+        ssWorksSlider();
         ssAlertBoxes();
         ssMoveTo();
 
