@@ -160,6 +160,8 @@
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="{{asset("assets/css/vendor.css")}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3x3GOnj2W0uEoL1/4FV4U7w6zLyuC2bN2GJ3OQKfLzBuo3f2Q0a2H4G3UIvJqS8d+Pm7bkT/1iT8u8gqXQvA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-UTNP5ae2aL85qyb3wKfEJmEj9kLFVjNJArjfy3KHjF5vj1io8nE1lKO9eXWc6KqZpbzo5smXK1YtQv5Q2C0T4g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="{{asset("assets/css/styles.css")}}">
 
     <!-- favicons
@@ -424,9 +426,9 @@
             </div>
         </div>
 
-        <div class="row folio-entries">
+        <div class="row folio-entries s-works__slider owl-carousel">
 
-            <div class="column entry">
+            <div class="entry">
                 <a href="{{ asset('assets/images/projects/brandseller.PNG') }}" class="entry__link glightbox" data-glightbox="title: Brandseller; description: .entry__desc-01">
                     <div class="entry__thumb">
                         <img src="{{ asset('assets/images/projects/brandseller.PNG') }}" srcset="{{ asset('assets/images/projects/brandseller.PNG') }} 1x, {{ asset('assets/images/projects/brandseller.PNG') }} 2x" alt="">
@@ -444,7 +446,7 @@
                     </p>
                 </div>
             </div> <!-- entry -->
-            <div class="column entry">
+            <div class="entry">
                 <a href="{{ asset('assets/images/projects/mira.PNG') }}" class="entry__link glightbox" data-glightbox="title: Miraafrica; description: .entry__desc-03">
                     <div class="entry__thumb">
                         <img src="{{ asset('assets/images/projects/mira.PNG') }}" srcset="{{ asset('assets/images/projects/mira.PNG') }} 1x, {{ asset('assets/images/projects/mira.PNG') }} 2x" alt="">
@@ -463,7 +465,7 @@
                 </div>
             </div> <!-- entry -->
 
-            <div class="column entry">
+            <div class="entry">
                 <a href="{{ asset('assets/images/projects/circlify.PNG') }}" class="entry__link glightbox" data-glightbox="title: Circlify; description: .entry__desc-03">
                     <div class="entry__thumb">
                         <img src="{{ asset('assets/images/projects/circlify.PNG') }}" srcset="{{ asset('assets/images/projects/circlify.PNG') }} 1x, {{ asset('assets/images/projects/circlify.PNG') }} 2x" alt="">
@@ -483,7 +485,7 @@
                 </div>
             </div> <!-- entry -->
 
-            <div class="column entry">
+            <div class="entry">
                 <a href="{{ asset('assets/images/projects/i0.PNG') }}" class="entry__link glightbox" data-glightbox="title: Init Zero; description: .entry__desc-02">
                     <div class="entry__thumb">
                         <img src="{{ asset('assets/images/projects/i0.PNG') }}" srcset="{{ asset('assets/images/projects/i0.PNG') }} 1x, {{ asset('assets/images/projects/i0.PNG') }} 2x" alt="">
@@ -502,7 +504,7 @@
                 </div>
             </div> <!-- entry -->
 
-            <div class="column entry">
+            <div class="entry">
                 <a href="{{ asset('assets/images/projects/usaiy.JPG') }}" class="entry__link glightbox" data-glightbox="title: Usaiy Limited; description: .entry__desc-04">
                     <div class="entry__thumb">
                         <img src="{{ asset('assets/images/projects/usaiy.JPG') }}" srcset="{{ asset('assets/images/projects/usaiy.JPG') }} 1x, {{ asset('assets/images/projects/usaiy.JPG') }} 2x" alt="">
@@ -523,7 +525,7 @@
                 </div>
             </div> <!-- entry -->
 
-            <div class="column entry">
+            <div class="entry">
                 <a href="{{ asset('assets/images/projects/virtuo-logo.JPG') }}" class="entry__link glightbox" data-glightbox="title: De-virtuosphere; description: .entry__desc-05">
                     <div class="entry__thumb">
                         <img src="{{ asset('assets/images/projects/virtuo-logo.JPG') }}" srcset="{{ asset('assets/images/projects/virtuo-logo.JPG') }} 1x, {{ asset('assets/images/projects/virtuo-logo.JPG') }} 2x" alt="">
@@ -558,61 +560,85 @@
 
                         <div class="s-testimonials__slide swiper-slide">
                             <div class="s-testimonials__author">
-                                <img src="{{ asset('assets/images/avatars/user-02.jpg') }}" alt="Author image" class="s-testimonials__avatar">
+                                <img src="{{ asset('assets/images/projects/brandseller.PNG') }}" alt="Brandseller preview" class="s-testimonials__avatar">
                                 <cite class="s-testimonials__cite">
-                                    <strong>John Rockefeller</strong>
-                                    <span>Standard Oil Co.</span>
+                                    <strong>Brandseller</strong>
+                                    <span>WordPress Development</span>
                                 </cite>
                             </div>
                             <p>
-                                Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem.
-                                Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
-                                Laudantium quia consequatur molestias.
+                                Brandseller needed a fast, conversion-ready presence for their digital marketing studio. The site was optimised for speed,
+                                lead capture, and clarity, helping them showcase services and turn more visitors into qualified enquiries.
                             </p>
                         </div> <!-- end s-testimonials__slide -->
 
                         <div class="s-testimonials__slide swiper-slide">
                             <div class="s-testimonials__author">
-                                <img src="{{ asset('assets/images/avatars/user-03.jpg') }}" alt="Author image" class="s-testimonials__avatar">
+                                <img src="{{ asset('assets/images/projects/mira.PNG') }}" alt="Miraafrica preview" class="s-testimonials__avatar">
                                 <cite class="s-testimonials__cite">
-                                    <strong>Andrew Carnegie</strong>
-                                    <span>Carnegie Steel Co.</span>
+                                    <strong>Miraafrica</strong>
+                                    <span>Next.js &amp; Laravel API</span>
                                 </cite>
                             </div>
                             <p>
-                                Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                                Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
-                                Quasi voluptas eius distinctio. Atque eos maxime.
+                                Miraafrica required a multi-vendor storefront that could scale with designer onboarding. We delivered a modern interface,
+                                reliable APIs, and a seamless publishing flow for fashion creators across the continent.
                             </p>
                         </div> <!-- end s-testimonials__slide -->
 
                         <div class="s-testimonials__slide swiper-slide">
                             <div class="s-testimonials__author">
-                                <img src="{{ asset('assets/images/avatars/user-01.jpg') }}" alt="Author image" class="s-testimonials__avatar">
+                                <img src="{{ asset('assets/images/projects/circlify.PNG') }}" alt="Circlify preview" class="s-testimonials__avatar">
                                 <cite class="s-testimonials__cite">
-                                    <strong>John Morgan</strong>
-                                    <span>JP Morgan & Co.</span>
+                                    <strong>Circlify</strong>
+                                    <span>Next.js &amp; Laravel API</span>
                                 </cite>
                             </div>
                             <p>
-                                Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.
-                                Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
-                                Voluptatem dignissimos ut.
+                                Circlify is built around trust and transparent savings. The experience was crafted to highlight community goals,
+                                onboarding ease, and dependable payments so members can save confidently together.
                             </p>
                         </div> <!-- end s-testimonials__slide -->
 
                         <div class="s-testimonials__slide swiper-slide">
                             <div class="s-testimonials__author">
-                                <img src="{{ asset('assets/images/avatars/user-06.jpg') }}" alt="Author image" class="s-testimonials__avatar">
+                                <img src="{{ asset('assets/images/projects/i0.PNG') }}" alt="Init Zero preview" class="s-testimonials__avatar">
                                 <cite class="s-testimonials__cite">
-                                    <strong>Henry Ford</strong>
-                                    <span>Ford Motor Co.</span>
+                                    <strong>Init Zero</strong>
+                                    <span>Laravel Development</span>
                                 </cite>
                             </div>
                             <p>
-                                Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui. In ac felis
-                                quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit.
-                                Nihil ea quia nesciunt. Ducimus aut sed ipsam.
+                                Init Zero needed a clear presentation of full-cycle delivery expertise. The platform now communicates their
+                                end-to-end capabilities with a polished brand story and intuitive navigation for enterprise clients.
+                            </p>
+                        </div> <!-- end s-testimonials__slide -->
+
+                        <div class="s-testimonials__slide swiper-slide">
+                            <div class="s-testimonials__author">
+                                <img src="{{ asset('assets/images/projects/usaiy.JPG') }}" alt="Usaiy Limited preview" class="s-testimonials__avatar">
+                                <cite class="s-testimonials__cite">
+                                    <strong>Usaiy Limited</strong>
+                                    <span>Next.js &amp; Laravel API</span>
+                                </cite>
+                            </div>
+                            <p>
+                                Usaiy required a sophisticated web presence that matched its long-term investment thesis.
+                                The site blends confident storytelling with a clean, modern interface that signals trust and scale.
+                            </p>
+                        </div> <!-- end s-testimonials__slide -->
+
+                        <div class="s-testimonials__slide swiper-slide">
+                            <div class="s-testimonials__author">
+                                <img src="{{ asset('assets/images/projects/virtuo-logo.JPG') }}" alt="De-Virtuosphere preview" class="s-testimonials__avatar">
+                                <cite class="s-testimonials__cite">
+                                    <strong>De-Virtuosphere</strong>
+                                    <span>Next.js &amp; NestJS</span>
+                                </cite>
+                            </div>
+                            <p>
+                                De-Virtuosphere needed secure, user-friendly workflows for education and finance. We delivered a
+                                streamlined experience that supports identity verification, attendance tracking, and payments.
                             </p>
                         </div> <!-- end s-testimonials__slide -->
 
@@ -636,51 +662,49 @@
 
             <div class="column counter-items__item">
                 <div class="num">
-                    80
+                    65
                     <span>+</span>
                 </div>
                 <h5>Happy Customers</h5>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Vel harum magni quae voluptate error quo repellendus inventore
-                    laborum ex veniam.
+                    I focus on long-term partnerships, delivering dependable releases, proactive support,
+                    and clear communication that keep teams confident through launch and beyond.
                 </p>
             </div> <!-- end counter-items__item -->
 
             <div class="column counter-items__item">
                 <div class="num">
-                    120
+                    95
                     <span>+</span>
                 </div>
                 <h5>Projects Completed</h5>
                 <p>
-                    Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue.
-                    Fusce vel dui. In ac felis
-                    quis tortor malesuada pretium
+                    From MVPs to enterprise platforms, each delivery prioritises reliability, thoughtful UX,
+                    and infrastructure that scales with real user demand.
                 </p>
             </div> <!-- end counter-items__item -->
 
             <div class="column counter-items__item">
                 <div class="num">
-                    23k
+                    32k
                     <span>+</span>
                 </div>
                 <h5>Lines of Code</h5>
                 <p>
-                    Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                    Nisi eaque consequatur. Voluptatem dignissimos ut ducimus
+                    Clean, documented, and production-tested codebases power these builds,
+                    with performance tuning baked into every release cycle.
                 </p>
             </div> <!-- end counter-items__item -->
 
             <div class="column counter-items__item">
                 <div class="num">
-                    85
+                    92
                     <span>+</span>
                 </div>
                 <h5>Positive Feedback</h5>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel harum magni quae voluptate error
-                    quo repellendus inventore laborum ex veniam.
+                    Client feedback reflects fast response times, stable deployments,
+                    and solutions that feel crafted for their exact business goals.
                 </p>
             </div> <!-- end counter-items__item -->
 
@@ -705,8 +729,8 @@
 
             <div class="column xl-6 md-12 s-footer__block s-footer__about">
                 <p class="attention-getter">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illum quasi facere libero,
-                    fugiat laboriosam possimus amet consectetur adipisicing elit reprehenderit eveniet tempore quisquam ipsa id esse. Facere ratione dignissimos.
+                    If you are planning a new build, a redesign, or a scaling push, let us connect.
+                    I provide clear roadmaps, reliable delivery, and engineering support tailored to your business goals.
                 </p>
             </div> <!-- end section-footer__about -->
 
@@ -725,8 +749,7 @@
                     <div class="column xl-6 md-6 tab-12">
                         <h5>Contact Me</h5>
                         <ul class="link-list">
-                            <li><a href="mailto:#0">sayhello@hudson.com</a></li>
-                            <li><a href="tel:+1975432345">+197 543 2345</a></li>
+                            <li><a href="mailto:abdulazeez@usaiy.xyz">abdulazeez@usaiy.xyz</a></li>
                         </ul>
                     </div>
                 </div>
@@ -738,7 +761,7 @@
         <div class="row s-footer__buttons">
 
             <div class="column xl-6 tab-12">
-                <a href="mailto:#0" class="btn btn--primary btn--large u-fullwidth">Message Me</a>
+                <a href="mailto:abdulazeez@usaiy.xyz" class="btn btn--primary btn--large u-fullwidth">Message Me</a>
             </div>
 
             <div class="column xl-6 tab-12">
@@ -802,6 +825,7 @@
 <!-- Java Script
 ================================================== -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6iR4H6v+K0O45g45bB+HFqRSbV5MzdMR3NofM8JrIoVNewc19hXtOD87mpy4VdQG6aJ0aH7QpT+AaJ6g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="{{asset("assets/js/plugins.js")}}"></script>
 <script src="{{asset("assets/js/main.js")}}"></script>
 
